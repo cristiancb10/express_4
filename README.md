@@ -33,16 +33,26 @@ Configurar la base de datos en db.config.js:
 
 js
 Copiar
+
 Editar
+
 const config = {
+
   HOST: "localhost",
+  
   USER: "tu_usuario",
+  
   PASSWORD: "tu_contraseña",
+  
   DB: "nombre_base_datos",
+  
   DIALECT: "mysql" // o "postgres"
+  
 };
 export default config;
+
 Ejecutar la aplicación:
+
 
 ```bash
 Copiar
@@ -107,6 +117,8 @@ npm run dev
 ```
 
 ## Enlace de Git Hub
-
+```bash
+https://github.com/cristiancb10/express_4.git
+```
 
 Cristian Coca Bejarano
